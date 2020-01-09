@@ -13,5 +13,5 @@ pip install -r requirements.txt
 ```
 and then
 ```
-python weather.py
+python3 weather.py
 ```
