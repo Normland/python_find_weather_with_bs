@@ -9,8 +9,8 @@ First, choose directory, then
 
 ```
 git clone https://github.com/Normland/python_weather_in_bash.git
-pip3 install -r requirements.txt
-```
+pip install -r requirements.txt``` or ```pip3 install -r requirements.txt```
+
 and then
 ```
 python3 weather.py
