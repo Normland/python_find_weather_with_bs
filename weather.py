@@ -22,7 +22,7 @@ def browsing(name_city):
 	if name_city.lower() == 'москва':
 		
 		return str("https://rp5.ru/Погода_в_Москве_(ВДНХ)") 
-		#погода в москве не показывется, поэтому приходится уточнять
+		
  	
 	br = mechanize.Browser()
 	br.set_handle_robots(False)
@@ -129,7 +129,7 @@ def find_weather():
 
 
 		box[0].append(soup1+':00')
-		box[1].append(soup2+'℃')
+		box[1].append(soup2+'C')
 		box[2].append(soup3) 
 		box[3].append(soup4) 
 		#в box-ы постепенно добавляются данные(за какой-либо день)
