@@ -4,7 +4,7 @@ chardet==3.0.4
 html5lib==1.0.1
 idna==2.8
 lxml==4.4.2
-mechanize==0.4.3
+mechanize==0.4.6
 requests==2.21.0
 six==1.13.0
 soupsieve==1.9.5
